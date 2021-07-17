@@ -32,23 +32,34 @@ git checkout -b <branch_name>
 **7.** Now if you want to make any changes to code for making codes more efficient do it (make sure to raise an issue)
  >do comment beside your code why you add this changes
 
-**7.** Now add your changes:
+**8.** Install dependencies:
+```
+npm install
+```
+**9.** Run the app:
+```
+npm start
+```
+**10.** Now add your changes:
 
 ```
 git add .
 ```
 
-**8.** Commit changes:
+**11.** Commit changes:
 >This 'commit' command save your  changes to local repository.
 
 ```
 git commit -m "<relevant message to your change>"
 ```
-**9.** Push changes(change branch_name to that which you made during creating branch):
+**12.** Push changes(change branch_name to that which you made during creating branch):
 >The 'push' command  syncs your commits.
 ```
 git push -u origin <branch_name>
 ```
-**10.** To make pull request:
+**13.** To make pull request:
 
 >Now click on `compare and pull requests`
+
+### 🖼️ Buit with : ReactJS
+### 🙏 Support : [Phonepe](https://drive.google.com/file/d/1yPqw_5yd1PETcYwLguAwqGN2yZcYLUGb/view?usp=sharing)
