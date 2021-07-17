@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Getting Started with Markdown Editor
+Markdown Editor is a free and open-source editor that helps you to write your own readme file for the Github repository.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to contribute?
+**1.** Fork this repository.
 
-## Available Scripts
+ **2.** Clone the repository to get the repository in your local environment.
+ ```
+ git clone https://github.com/rwiteshbera/Markdown-editor.git
+ ```
+**3.** Go to the repository folder:
 
-In the project directory, you can run:
+```
+cd Markdown-editor
+```
+**4.** Add a reference (remote) to the original repository:
+> Setting a remote upstream and fetching it time to time makes sure your forked repo is in sync with the original repo. To set upstream (only use once).
+```
+git remote add upstream https://github.com/rwiteshbera/Markdown-editor.git
+```
 
-### `yarn start`
+**5.** Take a pull from the upstream main to make ypur repo upto date:
+>To fetch (Everytime you want to fetch run this):
+```
+git pull upstream main
+```
+**6.** Make new branch(change branch name as you want):
+> In branch your changes should not affect production code. It's used to make production code bug free. And you should make branches when to do any changes in any code. 
+```
+git checkout -b <branch_name>
+```
+**7.** Now if you want to make any changes to code for making codes more efficient do it (make sure to raise an issue)
+ >do comment beside your code why you add this changes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**7.** Now add your changes:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git add .
+```
 
-### `yarn test`
+**8.** Commit changes:
+>This 'commit' command save your  changes to local repository.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git commit -m "<relevant message to your change>"
+```
+**9.** Push changes(change branch_name to that which you made during creating branch):
+>The 'push' command  syncs your commits.
+```
+git push -u origin <branch_name>
+```
+**10.** To make pull request:
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+>Now click on `compare and pull requests`
