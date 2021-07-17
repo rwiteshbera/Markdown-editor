@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="footer">
         <h4>Developed by Rwitesh Bera</h4>
-        <h5>About</h5>
+        <a href="https://github.com/rwiteshbera/Markdown-editor">Github</a>
       </div>
     </>
   );
