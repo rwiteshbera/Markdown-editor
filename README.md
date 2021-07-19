@@ -19,7 +19,7 @@ cd Markdown-editor
 git remote add upstream https://github.com/rwiteshbera/Markdown-editor.git
 ```
 
-**5.** Take a pull from the upstream main to make ypur repo upto date:
+**5.** Take a pull from the upstream main to make your repo upto date:
 >To fetch (Everytime you want to fetch run this):
 ```
 git pull upstream main
@@ -61,5 +61,5 @@ git push -u origin <branch_name>
 
 >Now click on `compare and pull requests`
 
-### 🖼️ Buit with : ReactJS
+### 🖼️ Built with : ReactJS
 ### 🙏 Support : [Phonepe](https://drive.google.com/file/d/1yPqw_5yd1PETcYwLguAwqGN2yZcYLUGb/view?usp=sharing)
