@@ -62,4 +62,4 @@ git push -u origin <branch_name>
 >Now click on `compare and pull requests`
 
 ### 🖼️ Built with : ReactJS
-### 🙏 Support : [Phonepe](https://drive.google.com/file/d/1yPqw_5yd1PETcYwLguAwqGN2yZcYLUGb/view?usp=sharing)
+
